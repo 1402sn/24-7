@@ -17,13 +17,13 @@ const ganti = [
   "Dan Seterusnya",
 ]; // Ganti Ke Teks Yang Mau Ganti²
 const prefix = "?"
-const textUtama = "Taixit.ID"
+const textUtama = "Solly"
 const textDua = "{tanggal} {jam} {menit} {bulan}" // Contoh Kalo Pake Bulan, Tanggal, Jam / Menit
-const textTiga = "MxT Store Trusted" // Contoh Kalo Ganti-Ganti
-const textEmpat = "Trusted"
-const type = "LISTENING" // Type :: PLAYING, LISTENING, WATCHING, STREAMING ( Besar Semua )
-const gambarGede = "mp:attachments/1042215433174003762/1043167476046893066/20221029_171840.png"
-const gambarKecil = "mp:attachments/1042215433174003762/1043167476046893066/20221029_171840.png"
+const textTiga = "As Know As Sully" // Contoh Kalo Ganti-Ganti
+const textEmpat = "Believe in yourself, bro!"
+const type = "STREAMING" // Type :: PLAYING, LISTENING, WATCHING, STREAMING ( Besar Semua )
+const gambarGede = "https://i.pinimg.com/564x/37/c0/85/37c08595ae30b993e0c5c97b0210c587.jpg"
+const gambarKecil = "small image"
 const labelButtonSatu = "MxT Store"
 const labelButtonDua = "Button 2"
 const linkButtonSatu = "https://youtube.com/channel/UCFmKhZEfWcLWwq0K0cYll2Q"
@@ -78,7 +78,7 @@ bot.on('ready', async () => { // If The User Was Ready
     let pr = new RichPresence() // Creates New RPC
       .setName(`${hasilSatu}`) // RPC Name
       .setType(`${type}`.toUpperCase()) // RPC Type
-      .setApplicationId("993210680859701369") // RPC Application ID
+      .setApplicationId("1116621382466412614") // RPC Application ID
       .setAssetsLargeImage(`${gambarGede}`) // RPC Small Image ID
       .setAssetsSmallImage(`${gambarKecil}`) // RPC Large Image ID
       .setAssetsLargeText(`${hasilEmpat}`) // RPC Extra Text
